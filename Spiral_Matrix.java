@@ -25,7 +25,8 @@ public class Spiral_Matrix{
                 if(startCol==endCol)break;
                 System.out.print(matrix[i][startCol]+" ");
             }
-            startCol++;startRow++;
+            startCol++;
+            startRow++;
             endCol--;
             endRow--;
         }
